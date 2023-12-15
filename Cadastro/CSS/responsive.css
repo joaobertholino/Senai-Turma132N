@@ -1,0 +1,207 @@
+@media screen and (max-width: 1669px) {
+  div.toggle-theme {
+    bottom: 6.5%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 14px;
+  }
+
+  .switch {
+    width: 23%;
+  }
+
+  div.toggle-theme {
+    bottom: 6.5%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  html {
+    font-size: 10.5px;
+  }
+
+  .switch {
+    width: 30.5%;
+  }
+
+  div.toggle-theme {
+    bottom: 13%;
+    left: 29%;
+  }
+
+  img.icon-theme {
+    width: 10.25%;
+  }
+
+  form {
+    height: 40%;
+  }
+
+  input.input-login {
+    height: 12%;
+    font-size: 1.5rem;
+  }
+
+  input.input-login:-webkit-autofill::first-line {
+    font-size: 1.5rem;
+  }
+
+  div.password-options {
+    font-size: 1.25rem;
+  }
+
+  input.input-remember {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+
+  div.btn-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 40%;
+  }
+
+  button.button-login {
+    font-size: 1.5rem;
+    height: 29%;
+  }
+
+  p.new-account {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  form {
+    height: 35%;
+  }
+
+  form {
+    height: 38%;
+  }
+
+  h1.title-top {
+    font-size: 2.7rem;
+  }
+
+  input.input-login {
+    font-size: 1.5rem;
+    height: 15%;
+  }
+
+  .switch {
+    width: 31%;
+  }
+
+  div.toggle-theme {
+    bottom: 11%;
+    left: 25%;
+  }
+
+  div.btn-login {
+    height: 43%;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  html {
+    font-size: 9.5px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40%;
+  }
+
+  label.remember-password,
+  a.link,
+  p.new-account {
+    font-size: 1.25rem;
+  }
+
+  label.title-input {
+    font-size: 1.5rem;
+  }
+
+  input.input-login,
+  input.input-login:-webkit-autofill::first-line {
+    font-size: 1.55rem;
+  }
+
+  button.button-login {
+    font-size: 1.7rem;
+  }
+
+  div.password-options {
+    margin-bottom: 9%;
+  }
+
+  input.input-remember {
+    width: 1.7rem;
+    height: 1.7rem;
+  }
+
+  a.login-alt {
+    width: 40px;
+  }
+
+  .switch {
+    width: 36.5%;
+  }
+
+  div.toggle-theme {
+    bottom: 11%;
+    left: 25%;
+  }
+
+  img.icon-theme {
+    width: 10.25%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  div.password-options {
+    margin: 2% 0 10% 0;
+  }
+
+  h1.title-top {
+    font-size: 2.3rem;
+  }
+
+  label.title-input {
+    font-size: 1.5rem;
+  }
+
+  label.remember-password,
+  a.link,
+  p.paragraph-top {
+    font-size: 1.4rem;
+  }
+
+  input.input-remember {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  div.login-alternative {
+    margin: 5% 0 10% 0;
+  }
+
+  p.new-account {
+    font-size: 1.3rem;
+  }
+
+  .switch {
+    width: 40.5%;
+  }
+
+  div.toggle-theme {
+    left: 23%;
+  }
+}

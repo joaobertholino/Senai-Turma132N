@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link id="themeToggle" rel="stylesheet" href="CSS/light-theme-login.css" />
+    <link rel="stylesheet" href="CSS/responsive.css" />
+    <script src="JS/login.js" defer></script>
+    <title>CLOTH SHARE - Login</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="main-form">
+        <h1 class="title-top title">Acessar minha conta</h1>
+        <p class="paragraph-top paragraph" id="paragraph-top">Preencha as informações com seus dados.</p>
+        <form class="form-login">
+          <label for="email" class="title-input title-email" id="email-label">Email:</label>
+          <input type="email" class="input-login input-email" id="email-input" placeholder="projeto.senai@gmail.com" required autocomplete="email" autofocus />
+          <label for="password" class="title-input title-password" id="password-label">Senha:</label>
+          <input type="password" class="input-login input-password" id="password-input" placeholder="aLunOsEnAi@134" required autocomplete="current-password" />
+          <div class="password-options">
+            <div class="remember-my-password">
+              <input class="input-remember" id="show-password" type="checkbox" />
+              <label for="checkbox" class="remember-password paragraph" id="show-password-label">Mostrar minha senha.</label>
+            </div>
+            <a href="#" class="forgot-password link">Esqueci minha senha</a>
+          </div>
+          <div class="btn-login">
+            <button class="button-login btn-login-native" id="btn-login">Entrar</button>
+            <button class="button-login btn-login-google">Entrar com Google</button>
+            <button class="button-login btn-login-facebook">Entrar com Facebook</button>
+          </div>
+        </form>
+        <p class="new-account paragraph">Para criar uma conta, <a class="create-account link" href="../Cadastro/cadastro.html">Clique aqui.</a></p>
+        <div class="toggle-theme">
+          <img class="icon-theme icon-light-theme" src="assets/SVGs/sun-fill.svg" alt="" />
+          <label class="switch">
+            <input id="themeSwitch" type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+          <img class="icon-theme icon-dark-theme" src="assets/SVGs/moon-fill.svg" alt="" />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
